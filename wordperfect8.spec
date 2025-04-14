@@ -6,8 +6,8 @@ License:        Abandonware
 URL:            https://github.com/taviso/wpunix
 #Source0:       https://github.com/taviso/wpunix/archive/refs/heads/main.tar.gz
 Source0:        https://github.com/taviso/wpunix/archive/v%{version}/%{name}-%{version}.tar.gz
-Source1:        https://archive.download.redhat.com/pub/redhat/linux/5.2/en/os/i386/RedHat/RPMS/libc-5.3.12-27.i386.rpm
-Source2:        https://archive.download.redhat.com/pub/redhat/linux/5.2/en/os/i386/RedHat/RPMS/glibc-2.0.7-29.i386.rpm
+Source1:        https://legacy.redhat.com/pub/redhat/linux/5.2/en/os/i386/RedHat/RPMS/libc-5.3.12-27.i386.rpm
+Source2:        https://legacy.redhat.com/pub/redhat/linux/5.2/en/os/i386/RedHat/RPMS/glibc-2.0.7-29.i386.rpm
 Source3:        https://archive.org/download/corel-wpunix-8/COREL_WPUNIX_1.iso
 ExclusiveArch:  i686
 BuildRequires:  bsdtar
